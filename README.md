@@ -55,11 +55,11 @@ This semester project implements an end-to-end, reproducible, leak-free machine 
 Telecom-Customer-Churn-Prediction/
 │
 ├── datasets/
-│   └── 10_telecom_customer_churn_prediction/
+│   └── 8_telecom_customer_churn_prediction/
 │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv    # Authentic IBM Telco dataset
 │
 ├── notebooks/
-│   └── 10_telecom_customer_churn_prediction.ipynb # Fully executed, documented notebook
+│   └── 8_telecom_customer_churn_prediction.ipynb # Fully executed, documented notebook
 │
 ├── models/
 │   └── best_churn_model.joblib                    # Serialized final pipeline
@@ -155,13 +155,13 @@ You can launch Jupyter from either the project root or the `notebooks/` director
 
 From the project root:
 ```bash
-jupyter notebook notebooks/10_telecom_customer_churn_prediction.ipynb
+jupyter notebook notebooks/8_telecom_customer_churn_prediction.ipynb
 ```
 Or simply start the Jupyter server:
 ```bash
 jupyter notebook
 ```
-and open `10_telecom_customer_churn_prediction.ipynb` in the browser interface.
+and open `8_telecom_customer_churn_prediction.ipynb` in the browser interface.
 
 ### Running the Complete Pipeline
 1. Select **Kernel** $\rightarrow$ **Restart & Run All**.
